@@ -1,0 +1,189 @@
+{
+  "questions": [
+    {
+      "id": "q1",
+      "question": "Which is the most popular JavaScript framework?",
+      "options": ["Angular", "React", "Svelte", "Vue"],
+      "correctOption": 1
+    },
+    {
+      "id": "q2",
+      "question": "Which company invented React?",
+      "options": ["Google", "Apple", "Netflix", "Facebook"],
+      "correctOption": 3
+    },
+    {
+      "id": "q3",
+      "question": "What's the fundamental building block of React apps?",
+      "options": ["Components", "Blocks", "Elements", "Effects"],
+      "correctOption": 0
+    },
+    {
+      "id": "q4",
+      "question": "What's the name of the syntax we use to describe the UI in React components?",
+      "options": ["FBJ", "Babel", "JSX", "ES2015"],
+      "correctOption": 2
+    },
+    {
+      "id": "q5",
+      "question": "How does data flow naturally in React apps?",
+      "options": [
+        "From parents to children",
+        "From children to parents",
+        "Both ways",
+        "The developer decides"
+      ],
+      "correctOption": 0
+    },
+    {
+      "id": "q6",
+      "question": "How to pass data into a child component?",
+      "options": ["State", "Props", "PropTypes", "Parameters"],
+      "correctOption": 1
+    },
+    {
+      "id": "q7",
+      "question": "When to use derived state?",
+      "options": [
+        "Whenever the state should not trigger a re-render",
+        "Whenever the state can be synchronized with an effect",
+        "Whenever the state should be accessible to all components",
+        "Whenever the state can be computed from another state variable"
+      ],
+      "correctOption": 3
+    },
+    {
+      "id": "q8",
+      "question": "What triggers a UI re-render in React?",
+      "options": [
+        "Running an effect",
+        "Passing props",
+        "Updating state",
+        "Adding event listeners to DOM elements"
+      ],
+      "correctOption": 2
+    },
+    {
+      "id": "q9",
+      "question": "When do we directly 'touch' the DOM in React?",
+      "options": [
+        "When we need to listen to an event",
+        "When we need to change the UI",
+        "When we need to add styles",
+        "Almost never"
+      ],
+      "correctOption": 3
+    },
+    {
+      "id": "q10",
+      "question": "In what situation do we use a callback to update state?",
+      "options": [
+        "When updating the state will be slow",
+        "When the updated state is very data-intensive",
+        "When the state update should happen faster",
+        "When the new state depends on the previous state"
+      ],
+      "correctOption": 3
+    },
+    {
+      "id": "q11",
+      "question": "What is the purpose of the key prop in React lists?",
+      "options": [
+        "To give each element a unique identity for efficient re-rendering",
+        "To style list items differently",
+        "To store local data for each element",
+        "To create nested lists"
+      ],
+      "correctOption": 0
+    },
+    {
+      "id": "q12",
+      "question": "If we pass a function to useState, when will that function be called?",
+      "options": [
+        "On each re-render",
+        "Each time we update the state",
+        "Only on the initial render",
+        "The first time we update the state"
+      ],
+      "correctOption": 2
+    },
+    {
+      "id": "q13",
+      "question": "Which hook to use for an API request on the component's initial render?",
+      "options": ["useState", "useEffect", "useRef", "useReducer"],
+      "correctOption": 1
+    },
+    {
+      "id": "q14",
+      "question": "What does the useRef hook primarily help with?",
+      "options": [
+        "Re-rendering the component when a value changes",
+        "Storing mutable values that persist across renders",
+        "Managing side effects",
+        "Creating derived state from props"
+      ],
+      "correctOption": 1
+    },
+    {
+      "id": "q15",
+      "question": "Which variables should go into the useEffect dependency array?",
+      "options": [
+        "Usually none",
+        "All our state variables",
+        "All state and props referenced in the effect",
+        "All variables needed for clean up"
+      ],
+      "correctOption": 2
+    },
+    {
+      "id": "q16",
+      "question": "An effect will always run on the initial render.",
+      "options": [
+        "True",
+        "It depends on the dependency array",
+        "False",
+        "It depends on the code in the effect"
+      ],
+      "correctOption": 0
+    },
+    {
+      "id": "q17",
+      "question": "When will an effect run if it doesn't have a dependency array?",
+      "options": [
+        "Only when the component mounts",
+        "Only when the component unmounts",
+        "The first time the component re-renders",
+        "Each time the component is re-rendered"
+      ],
+      "correctOption": 3
+    },
+    {
+      "id": "q18",
+      "question": "What does React.memo() do?",
+      "options": [
+        "Forces a component to re-render",
+        "Prevents unnecessary re-renders when props haven't changed",
+        "Caches API data in memory",
+        "Makes the component run asynchronously"
+      ],
+      "correctOption": 1
+    },
+    {
+      "id": "q19",
+      "question": "Which hook allows you to optimize performance by memoizing expensive calculations?",
+      "options": ["useEffect", "useCallback", "useMemo", "useReducer"],
+      "correctOption": 2
+    },
+    {
+      "id": "q20",
+      "question": "Why should we avoid mutating state directly in React?",
+      "options": [
+        "Because it causes syntax errors",
+        "Because React won't detect the change and won't re-render",
+        "Because it slows down the app performance",
+        "Because it's not supported in functional components"
+      ],
+      "correctOption": 1
+    }
+  ]
+}
