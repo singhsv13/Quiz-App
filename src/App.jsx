@@ -1,8 +1,8 @@
 import { useReducer } from "react";
-import StartScreen from "./startscreen";
+import StartScreen from "./components/startscreen";
 import { questions } from "./questions.json";
-import Results from "./result";
-import Quiz from "./quiz";
+import Results from "./components/result";
+import Quiz from "./components/quiz";
 
 import "./App.css";
 
